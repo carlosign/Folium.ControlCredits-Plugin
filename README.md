@@ -5,7 +5,8 @@ Leaflet control credits plugin ported to Folium
 Original leaflet control from https://github.com/GreenInfo-Network/Leaflet-Control-Credits
 
 Example of usage:
-
+```
+ from creditosfolium import Creditos
  Creditos(
     imageurl="IMG URL or Base64 IMG URI",
     imagealt="Alt Text",
@@ -15,4 +16,4 @@ Example of usage:
     expandcontent= "Content. Html allowed.",
     ).add_to(m)
 
-    
+```
