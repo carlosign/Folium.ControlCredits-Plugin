@@ -23,13 +23,13 @@ class Creditos(JSCSSMixin, MacroElement):
     default_js = [
         (
             "leaflet-control-credits.js",
-            "js/leaflet-control-credits.js",
+            "https://cdn.jsdelivr.net/gh/carlosign/Folium.ControlCredits-Plugin@main/js/leaflet-control-credits.js",
         )
     ]
     default_css = [
         (
             "leaflet-control-credits.css",
-            "js/leaflet-control-credits.css",
+            "https://cdn.jsdelivr.net/gh/carlosign/Folium.ControlCredits-Plugin@main/js/leaflet-control-credits.css",
         )
     ]
 
